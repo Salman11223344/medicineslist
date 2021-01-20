@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:background="@color/teal_700"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:id="@+id/drugs_show"
+        android:layout_marginTop="20dp"
+        android:text="Details"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:id="@+id/indications_show"
+        android:layout_marginTop="5dp"
+        android:text="Details"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:id="@+id/therapeutic_class_show"
+        android:layout_marginTop="5dp"
+        android:text="Details"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:id="@+id/pharmacology_show"
+        android:layout_marginTop="20dp"
+        android:text="Details"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:textStyle="bold|italic"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:id="@+id/dosage_show"
+        android:layout_marginTop="20dp"
+        android:text="Details"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>
+
+</ScrollView>
